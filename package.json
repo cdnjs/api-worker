@@ -1,0 +1,6 @@
+{
+  "main": "./src/index.js",
+  "dependencies": {
+    "toucan-js": "^2.1.0"
+  }
+}
