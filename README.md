@@ -7,9 +7,6 @@
 ---
 
 <p align="center">
- <a href="#contributing">
-   <img src="https://img.shields.io/badge/Robots-only-red.svg?style=flat-square" alt="Robots only">
- </a>
  <a href="https://github.com/cdnjs/logs/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
  </a>
@@ -37,7 +34,7 @@
 This is the code that powers metadata.speedcdnjs.com.
 It's an internal API that is NOT meant to be used directly. See [API] instead.
 
-The API is implemented as a Cloudflare Worker and uses several KS namespaces that are populated from the [cdnjs bot].
+The API is implemented as a Cloudflare Worker and uses several KV namespaces that are populated from the [cdnjs bot].
 
 ## Contributing
 
@@ -67,9 +64,9 @@ By listing this namespace by prefix, we can easily fetch the SRIs in bulks of 10
 
 This will eventually replace cdnjs/SRIs.
 
-### Deployement
+### Deployment
 
-Deployement and testing is managed by Cloudflare for now.
+Deployment and testing is managed by Cloudflare for now.
 
 ## License
 
