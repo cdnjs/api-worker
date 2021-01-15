@@ -1,0 +1,15 @@
+name = "api-worker"
+type = "webpack"
+account_id = ""
+workers_dev = true
+
+kv_namespaces = [
+  { binding = "CDNJS_PACKAGES", preview_id = "a" },
+  { binding = "CDNJS_VERSIONS", preview_id = "a" },
+  { binding = "CDNJS_AGGREGATED_METADATA", preview_id = "a" },
+  { binding = "CDNJS_SRIS", preview_id = "a" }
+]
+
+[vars]
+ENV = "dev"
+SENTRY_DSN = ""
